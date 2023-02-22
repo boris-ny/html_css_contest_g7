@@ -50,9 +50,26 @@ body {
 }
 
 main {
-  flex: 1;
+  display: flex;
+  padding-top: 30px;
+  background-color: #af9c9c;
+  color: #fff;
+}
+.wrapper{
+  padding-bottom: 20px;
+  display: inline-block
+}
+.wrapper img {
+  max-width: 320px;
+  float:left;
+  margin-right: 20px;
 }
 
+.wrapper2 img {
+  max-width: 320px;
+  float:left;
+  margin-right: 20px;
+}
 footer {
   background-color: #333;
   color: #fff;
